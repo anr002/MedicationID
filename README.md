@@ -25,6 +25,7 @@ The end goal is to give the model a picture of a pill and have it predict the co
 - Images are not uniform in size due to different resolutions
 - Plotted 40 sample pills with drug names
 - Bottom of each image contains a blue metadata label that will have to be cropped out
+![00002-4772-90_RXNAVIMAGE10_8C16C656](https://github.com/user-attachments/assets/28519e29-af26-4ef0-9156-66ef86df283b)
 
 ---
 
@@ -37,6 +38,7 @@ Here’s how we prepare the data for training:
 
 2. **Crop label panel**  
    The bottom of each image has printed info. We can crop ~15–20% off the bottom to avoid cheating via text.
+![00007-4139-20_NLMIMAGE10_9C18CE46](https://github.com/user-attachments/assets/5a4f296b-1ad5-4ac9-893e-49fad4f23574)
 
 3. **Resize**  
    All images resized to 224x224 
