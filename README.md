@@ -7,7 +7,8 @@ The end goal is to give the model a picture of a pill and have it predict the co
 
 ##  Dataset Overview
 
-- **Source**: [NIH C3PI RxImage Project](https://data.lhncbc.nlm.nih.gov/public/Pills/)
+- **Source**: [NIH C3PI RxImage Project](https://datadiscovery.nlm.nih.gov/Drugs-and-Chemicals/Computational-Photography-Project-for-Pill-Identif/5jdf-gdqh/about_data)
+            - Direct download: https://data.lhncbc.nlm.nih.gov/public/Pills/rximage.zip
 - **Data Structure**:
   - `table.csv`: Contains metadata for each pill (drug name, NDC, image paths by resolution)
   - `gallery/`: Image folder with 6 resolutions per pill (120, 300, 600, 800, 1024, original)
